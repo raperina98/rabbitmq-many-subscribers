@@ -1,5 +1,5 @@
 # rabbitmq-many-subscribers
-Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvindo uma fila.
+Apenas brincando com o *RabbitMQ* 🐰 testando vários subscribers/consumers ouvindo uma fila.
 
 ![alt text](https://github.com/raperina98/rabbitmq-many-subscribers/blob/develop/docs/img.docs.logger.png?raw=true)
 
@@ -9,7 +9,7 @@ Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvi
     ```
     $ npm i
     ```  
-- executar em sequência (de preferêcia, cada um em um terminal): 
+- executar em sequência (de preferêcia, cada comando em um terminal): 
     ```
     $ yarn docker:rabbitmq
     $ yarn subscribers
