@@ -1,2 +1,2 @@
 # rabbitmq-many-subscribers
-Teste de vários subscribers/consumers ouvindo uma fila no RabbitMQ
+Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvindo uma fila.
