@@ -5,6 +5,10 @@ Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvi
 
 # RUN CODE 
 
+- instalar dependências 
+    ```
+    $ npm i
+    ```  
 - executar em sequência (de preferêcia, cada um em um terminal): 
     ```
     $ yarn docker:rabbitmq
