@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "docker:rabbitmq": "docker-compose -f ./docker/docker-compose.yaml up -d",
+    "publisher": "yarn docker:rabbitmq && node ./src/rabbit.publisher.js",
+    "subscribers": "node ./src/rabbit.subscribers.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,6 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "amqplib": "^0.8.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "yarn": "^1.22.17"
   }
 }
