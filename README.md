@@ -5,7 +5,7 @@ Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvi
 
 # RUN CODE 
 
-- instalar dependências 
+- instalar dependencias 
     ```
     $ npm i
     ```  
@@ -16,6 +16,6 @@ Apenas brincando com o RabbitMQ 🐰 testando vários subscribers/consumers ouvi
     $ yarn publisher
     ```
 - tem apenas duas variaveis de ambiente do rabbitmq 
-  - RABBIT_CONNECTION: conexão com o rabbitMQ
-  - RABBIT_QUEUE_NAME: nome da fila que será testada 
+  - `RABBIT_CONNECTION`: conexão com o rabbitMQ
+  - `RABBIT_QUEUE_NAME`: nome da fila que será testada 
 - Observação: é preciso ter o docker & docker-compose instalados e configurados na máquina ou alguma instancia do rabbitMQ rodando localmente
